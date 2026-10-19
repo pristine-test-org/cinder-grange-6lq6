@@ -1,21 +1,16 @@
 # Cinder Grange: Monorepo · Vercel
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on **Vercel**, with preview links **public**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
-
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| _app one_ | `apps/<app>` | _not deployed_ | no |
-| _app two_ | `apps/<app>` | _not deployed_ | no |
-| _app three_ | `apps/<app>` | _not deployed_ | no |
+| Lupin | `apps/lupin-6hn` | https://cinder-grange-6lq6-lupin-6hn.vercel.app | no |
+| Kale | `apps/kale-00v` | https://cinder-grange-6lq6-kale-00v.vercel.app | no |
+| Bramble | `apps/bramble-e7g` | https://cinder-grange-6lq6-bramble-e7g.vercel.app | no |
 
 ## Names
 
