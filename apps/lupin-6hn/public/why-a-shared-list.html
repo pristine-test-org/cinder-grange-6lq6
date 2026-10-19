@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why a shared list · Lupin</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; color: #1c1c1c; background: #fafaf7; }
+      header { display: flex; justify-content: space-between; align-items: center; max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      .mark { font-weight: 700; color: #2f7d4f; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      header a { color: #2f7d4f; font-size: 10px; }
+      main { padding: 2rem 0; }
+      .intro { max-width: 44rem; margin: 0 auto; padding: 0 1rem; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: clamp(2rem, 6vw, 3.25rem); margin: 0 0 1rem;
+        background: linear-gradient(90deg, #2f7d4f, #d9a520);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      /* Intentional, for Impeccable's test drive: low-contrast text, light grey on the page background. */
+      .lede { color: #c9c9c4; font-size: 1.15rem; line-height: 1.5; }
+      /* Intentional, for Impeccable's test drive: transition on a layout property. */
+      .meter { height: 0.75rem; width: 40%; background: #2f7d4f; border-radius: 0.4rem; transition: width 0.3s; }
+      .meter:hover { width: 100%; }
+      /* Intentional, for Impeccable's test drive: body text flush with the viewport edge, no padding or background. */
+      .edge { margin: 1.5rem 0; padding: 0; line-height: 1.6; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="mark">Lupin</span>
+      <a href="/">Back to the front door</a>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>Why a shared list</h1>
+        <p class="lede">One list that everyone can read means fewer questions about who is doing what.</p>
+        <div class="meter" role="img" aria-label="Share of the list already done"></div>
+      </div>
+      <p class="edge">Anything added shows up for the whole group straight away, so the list stays the one place people look first.</p>
+    </main>
+  </body>
+</html>
